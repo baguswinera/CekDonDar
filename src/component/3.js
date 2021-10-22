@@ -7,7 +7,7 @@ const Name = styled.h1`
  text-align: center;
 `
 
-export default class C extends Component {
+export default class Waktu extends Component {
     constructor(props) {
         super(props);
         this.state = {

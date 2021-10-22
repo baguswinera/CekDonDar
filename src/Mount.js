@@ -1,9 +1,9 @@
 import {Component} from "react"; 
 import React from "react"; 
-import A from './component/A';
-import Card from './components/card';
-import Judul from './component/B';
-import Waktu from './component/C';
+import A from './component/1';
+import Card from './cardlist/card';
+import Judul from './component/2';
+import Waktu from './component/3';
 import Tekkom from './tekkom';
 
 export default class Mount extends Component{
@@ -25,14 +25,14 @@ export default class Mount extends Component{
                 <div>
                 {this.state.kompUtama ? <A/> : ''}
                 </div>
+                <div>
+                  <Waktu />
+               </div>
                <div>
                   <Card />
                </div>
                <div>
                   <Judul />
-               </div>
-               <div>
-                  <Waktu />
                </div>
                 <button className="rounded" onClick={this.hilangkan}>{this.state.kompWot ? 'Tutup' : 'Cek Ketersediaan'} </button>
                 {this.state.kompWot ? <Tekkom/> : ''}

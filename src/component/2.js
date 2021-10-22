@@ -9,7 +9,7 @@ const Name = styled.h2`
  text-align: center;
 `
 
-export default class B extends Component {
+export default class Judul extends Component {
     constructor(props){
         super(props)
         this.state = {

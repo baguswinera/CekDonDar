@@ -3,7 +3,6 @@ import axios from "axios";
 import { Modal, Input } from "antd";
 // import { Row, Col, Divider } from 'antd';
 import "antd/dist/antd.css";
-import modaldetail from "./modaldetail";
 
 import { Card, Button } from 'antd';
 

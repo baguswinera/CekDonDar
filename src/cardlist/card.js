@@ -19,18 +19,18 @@ const useStyles = makeStyles({
 
 const Name = styled.h5`
  color:black;
- font-size: 14px;
+ font-size: 16px;
  text-align: center;
 `
 const Img = styled.img`
  border-radius: 0%;
  padding: 0px;
- width: 89%;
+ width: 90%;
  margin: 10px;
 `
 const Table = styled.div
     `
-margin: 0px 0px 100px 400px;
+margin: 0px 0px 0px 440px;
 width: 50%;
 `
 const Column = styled.div
@@ -42,7 +42,7 @@ const Row = styled.div
     `
  display: table;
  padding:  0.5em 0.5em;
- width: 100%;
+ width: 80%;
  table-layout: fixed;
  border-spacing: 2px;
 `
@@ -59,7 +59,6 @@ export default function SimpleCard() {
             </div>
         );
     }
-    //class components
 
     return (
         <div className="wrapper">

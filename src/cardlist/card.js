@@ -55,7 +55,7 @@ export default function SimpleCard() {
                 <Img src={props.image} />
                 <p>{props.nama}</p>
                 <p>{props.nim}</p>
-
+                <p>{props.kelompok}</p>
             </div>
         );
     }
@@ -68,7 +68,7 @@ export default function SimpleCard() {
                         <Card className={classes.root}>
                             <Name>
                                 <div className="praktikan">
-                                    <CardContent nama="Bagus Ramadhan Winera" nim="21120118140081" image={Gambar1} />
+                                    <CardContent nama="Bagus Ramadhan Winera" nim="21120118140081" kelompok="Kelompok 17" image={Gambar1} />
                                 </div>
                             </Name>
                         </Card>
@@ -77,7 +77,7 @@ export default function SimpleCard() {
                         <Card className={classes.root}>
                             <Name>
                                 <div className="praktikan">
-                                    <CardContent nama="Estu Nur Aini" nim="21120118130096" image={Gambar2} />
+                                    <CardContent nama="Estu Nur Aini" nim="21120118130096" kelompok="Kelompok 17" image={Gambar2} />
                                 </div>
                             </Name>
                         </Card>
